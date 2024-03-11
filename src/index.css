@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: "Truculenta", sans-serif;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #001faf;
+  padding: 20px;
+  margin: 0%;
+  font-size: larger;
+}
+.logo {
+  width: 250px;
+}
+.active {
+  text-decoration: none;
+  color: rgb(255, 230, 0);
+}
+.unactive {
+  text-decoration: none;
+  color: white;
+}
+.iconos {
+  width: 20px;
+}
+.header {
+  background-image: url("../src/assets/header.jpg");
+  margin: 0%;
+  padding: 5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  filter: none;
+  text-shadow: 1px 2px black;
+}
+.header p {
+  font-size: larger;
+}
+.containerPizzas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.containerCard {
+  margin: 1rem;
+  width: 350px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+.containerCard ul {
+  text-align: justify;
+}
+.containerCard img {
+  width: 300px;
+  margin-top: 1rem;
+  text-align: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+.verMas {
+  border: none;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #001faf;
+  color: white;
+}
+
+.agregarCarrito {
+  border: none;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(58, 193, 53);
+  color: white;
+}
+
+.containerDetalle {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.containerDetalle img {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  border-radius: 2rem;
+}
+.containerDetalle button {
+  border: none;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(58, 193, 53);
+  color: white;
+}
+
+.tablaCarrito {
+  width: 50%;
+  border: 0.5px solid rgb(201, 201, 201);
+  margin: auto;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.tablaCarrito img {
+  width: 100px;
+  border-radius: 2rem;
+}
